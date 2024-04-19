@@ -1,0 +1,49 @@
+.product{
+    width: 22%;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 50px;
+    transition:all 0.5s linear;
+    border-radius: 8px;
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.productImg{
+    width: 100%;
+
+}
+
+h4,h5{
+    font-weight: normal;
+}
+.product:hover{
+    transform: translateY(-10px);
+    border: 1px solid goldenrod;
+    
+
+}
+
+.productCartdiv{
+    /* align-items: center; */
+    text-align: center;
+    
+    
+}
+
+.productCart{
+    padding: 10px 30px;
+    background-color: #a71d1d;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.productCart:hover{
+    background-color:#682424 ;
+}
+
+p{
+    font-weight: normal;
+}

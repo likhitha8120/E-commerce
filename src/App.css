@@ -1,0 +1,38 @@
+.header{
+    margin-bottom: 70px;
+    background: linear-gradient(rgb(213, 207, 207), #fcc3c3);
+    padding-bottom: 15px;
+  }
+
+.productSection{
+    max-width: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+
+.productDealsList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    margin: 0px 40px;
+    position: relative;
+    line-height: 60px;
+    color: #a71d1d;
+  }
+  
+.title::after {
+    content: " ";
+    background: #555;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}

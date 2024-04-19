@@ -1,0 +1,46 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.navImg{
+    height: 50px;
+    width: 70px;
+    
+}
+
+.navList{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #a71d1d;
+
+}
+
+.listItm{
+    padding: 10px;
+    
+}
+
+.listCart{
+    background-color:#a71d1d ;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+.navCart{
+    margin-left: 10px;
+    font-weight: bold;
+    /* font-size: 30px; */
+    padding: 4px;
+    
+}
